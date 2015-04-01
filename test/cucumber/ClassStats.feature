@@ -7,7 +7,7 @@ Feature: Show statistics about the class
 Scenario: Show percentage of students class
 	Given all students received their evaluations
 	And I am at the Assistant Teacher's statistics page
-	When I pres the "Show Statistics"
+	When I press the "Show Statistics"
 	Then I should see the percentage of students who achieved MANA
 	And I should see the percentage of students who achieved MPA
 	And I should see the percentage of students who achieved MA
